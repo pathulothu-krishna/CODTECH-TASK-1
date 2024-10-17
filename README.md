@@ -41,4 +41,4 @@ RUN apt-get -yq install \
 
 ADD rapidscan.py /usr/local/bin/rapidscan.py
 WORKDIR /app
-ENTRYPOINT ["/usr/local/bin/rapidscan.py"]
+ENTRYPOINT ["/usr/local/bin/rapidscan.py"] 
